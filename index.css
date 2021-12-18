@@ -1,0 +1,152 @@
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('PlayfairDisplay-Regular.ttf') format('ttf');
+  }
+body{
+  display: grid;
+  grid-template-rows: repeat(4,minmax(200px,auto));
+  
+  }
+nav{
+    top: -1px;
+    display: block;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    height: 10%;
+    padding-bottom:20px;
+}
+li{
+    float: right;
+}
+li a{
+    display: inline-block;
+    padding: 38px;
+    color: white;
+    text-decoration: none;
+}
+li:last-child .fnav{
+    background-color: white;
+    color: black;
+}
+li a:hover {
+    background-color:white;
+    color: black;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;   
+}
+#logo img{
+width: 200px;
+height: auto;
+float: left;
+margin-left: 80px;
+
+}
+.icons a {
+    border-color: black;
+    background-color: black;
+    color: white;   
+}
+.icons{
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+i{
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%; 
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  
+}
+.icons #instagram :hover{
+    background-color: rgb(236, 196, 62);
+    border-radius: 50%;
+    border: 1px solid rgb(236, 196, 62);
+    padding: 10px;
+}
+.icons #twitter :hover{
+    background-color: rgb(44, 179, 233);
+    border-radius: 50%;
+    border: 1px solid rgb(44, 179, 233);
+    padding: 10px;
+    
+}
+.icons #dribbble :hover{
+    background-color: rgb(243, 98, 212);
+    border-radius: 50%;
+    border: 1px solid rgb(243, 98, 212);
+    padding: 10px;
+  
+}
+
+p{
+    display: inline-block;
+    position: relative;
+    margin: 0 90px;
+    text-align:left;
+    align-items: center;
+    font-family: PlayfairDisplay ;
+    font-size: 400%;
+    color: black;
+  
+}
+.grid-pictures{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(5,200px) ;
+    grid-template-rows: repeat(3,200px);
+    gap: 20px;
+    justify-self: center;
+    
+    
+}
+.grid-pictures img{
+    width: 200px;
+    height: 200px;
+}
+.grid-form{
+    margin-top: 300px;
+    align-self: center;
+    justify-self: center;
+    
+}
+.grid-form #email-en{
+    width: 200px;
+    height: 45px;
+    margin-bottom: 20px;
+  
+}
+.grid-form #submit{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.grid-form p{
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+footer {
+    justify-self: center;
+    margin-bottom: 5px;
+    
+    
+}
+footer p{
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
